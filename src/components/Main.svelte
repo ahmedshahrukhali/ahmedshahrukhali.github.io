@@ -2,15 +2,15 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Analysis', icon: "fa-solid fa-magnifying-glass-chart"},
-        {name: 'DEng', icon: "fa-solid fa-database"},
-        {name: 'AI', icon: "fa-solid fa-robot"}
+        {name: 'Software Development', icon: "fa-solid fa-magnifying-glass-chart"},
+        {name: 'Data Engineering', icon: "fa-solid fa-database"},
+        {name: 'Artificial Intelligence', icon: "fa-solid fa-robot"}
     ];
 
     let benefits = [
-        {name: 'electrical engineer', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
-        {name: 'machine learning engineer', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
-        {name: 'data scientist', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'}
+        {name: 'machine learning engineer', description: ' build, evaluate, productionize, and optimize ML models using Google Cloud technologies. My work involves handling large, complex datasets and creating repeatable, reusable code. I prioritize responsible AI and fairness throughout the ML model development process. Collaboration with other roles ensures long-term success. My proficiency extends to model architecture, data pipelines, and metrics interpretation, enabling ML accessibility across the organization.'},
+        {name: 'electrical engineer', description: 'As an Electrical Controls Engineer, I bridge the gap between hardware and software. My expertise lies in designing and optimizing electrical systems that power our digital world.'},
+        {name: 'data scientist', description: 'I gather data from diverse sources, clean and consolidate it, and apply my programming, mathematical, statistical, and analytical skills to extract insights. My role revolves around problem-solving, and I thrive on unique challenges. Whether it’s predictive modeling, natural language processing, or exploratory data analysis, I bring a data-driven approach to decision-making.'}
     ]
 
 </script>
@@ -53,10 +53,16 @@
                 Curios to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a href="https://www.google.com" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
+        <a href="https://drive.google.com/file/d/11o2CcZRMfvi5dZCe9tqeAwqcbqOD3cuw/view?usp=sharing" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+            <i class="fa-solid fa-file" />
+            <p>Check Out My Resume</p>
         </a>
+
+        <a href="https://github.com/ahmedshahrukhali" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+            <i class="fa-brands fa-github" />
+            <p>Check Out My Projects</p>
+        </a>
+
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>Analysis is important for many reasions and I use <strong class="text-violet-400">Python, SQL, Informatica</strong></p>
